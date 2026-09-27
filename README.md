@@ -11,7 +11,7 @@ Time spent: **4** hours spent in total
 The following **required** functionality is implemented in the source code. Live backend and device verification is pending local configuration; see [SETUP.md](BeReal/SETUP.md).
 
 - [x] User can launch the back camera to take a photo instead of using the photo library.
-- [] Users without an iPhone can add unique photos to the simulator’s Photos app and select them in the app.
+- Users without an iPhone can add unique photos to the simulator’s Photos app and select them in the app.
 - [x] Posts have a time and location attached to them.
 - [x] Users are not able to see other users’ photos until they upload their own recent photo.
 - [x] Fetch the 10 most recent photos within the last 24 hours from the server.
@@ -20,7 +20,7 @@ The following **required** functionality is implemented in the source code. Live
 
 ## Optional Features
 
-- [ ] Posts have a comment section, which displays the commenter’s username and comment context.
+- Posts have a comment section, which displays the commenter’s username and comment context.
 - [x] User can enable a daily local notification when it is time to post (7 PM local time).
 
 ## Additional Features
@@ -30,9 +30,9 @@ The following **required** functionality is implemented in the source code. Live
 - [x] Duplicate-photo detection for the same user using the uploaded JPEG’s SHA-256 fingerprint.
 - [x] Camera, photo-library, and location permission handling.
 - [x] Photo GPS/capture-time metadata with a clearly labeled current-location or selection-time fallback.
-- [] Image resizing and JPEG compression before upload.
+- Image resizing and JPEG compression before upload.
 - [x] Recovery of the latest post time if updating the user profile fails after a successful upload.
-- [] Automatic feed locking after the user’s most recent post expires.
+- Automatic feed locking after the user’s most recent post expires.
 
 ## Video Walkthrough
 
